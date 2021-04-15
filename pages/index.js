@@ -2,7 +2,7 @@ function Home(){
     return(
         <div>
             <h1>Zuardina</h1>
-            <p> Automação Comercial</p>
+            <a href="/Contatos">Contatos</a>
         </div>
     )
 }
