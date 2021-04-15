@@ -1,7 +1,8 @@
 function Home(){
     return(
         <div>
-            <h1>Zuardina Teste</h1>
+            <h1>Zuardina</h1>
+            <p> Automação Comercial</p>
         </div>
     )
 }
