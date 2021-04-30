@@ -1,7 +1,7 @@
-async function tempo(request, responce){
+async function tempo(req, res){
     const dynamicDate = new Date();
 
-    responce.json({
+    res.json({
         date: dynamicDate.toGMTString()
     })
 }
