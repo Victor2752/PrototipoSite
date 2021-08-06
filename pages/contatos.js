@@ -3,7 +3,7 @@ function Contato(props) {
         <div>
             <h1>Informações de contato</h1>
             <hr />
-            <h2>Almir</h2>
+            <h2>Victor</h2>
             <h3>Telefone para contato: {props.telefone}</h3>
             <hr />
             <a href="/">Voltar para Home page</a>
@@ -12,7 +12,7 @@ function Contato(props) {
 }
 
 export function getStaticProps(){
-    const telefone = '+55 (11) 98695-6685'
+    const telefone = '+55 (11) 98638-7326'
     
     return{
         props: {
